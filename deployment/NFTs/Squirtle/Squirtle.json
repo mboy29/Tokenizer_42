@@ -1,0 +1,14 @@
+{
+    "name": "Squirtle",
+    "description": "Squirtle is a Water-type Pokémon known for its ability to shoot water from its mouth. This NFT represents Squirtle’s cute and resilient nature as a beloved starter Pokémon.",
+    "image": "ipfs://<Squirtle-Image-CID>", 
+    "properties": {
+        "type": "Water",
+        "rarity": "Common",
+        "abilities": [
+            "Water Gun",
+            "Tackle"
+        ],
+        "trainer": "None"
+    }
+}

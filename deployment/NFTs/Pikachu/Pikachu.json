@@ -1,0 +1,14 @@
+{
+    "name": "Pikachu",
+    "description": "A vibrant NFT featuring Pikachu, the iconic Electric-type Pokémon from the Pokémon series. Pikachu is known for its electric abilities and cheerful demeanor.",
+    "image": "ipfs://QmcvPvLc7Zvf8NNNum114onFGZ4S8ovQcwnJJqVUbRqHZY", 
+    "properties": {
+        "type": "Electric",
+        "rarity": "Legendary",
+        "abilities": [
+            "Thunderbolt",
+            "Quick Attack"
+        ],
+        "trainer": "Ash Ketchum"
+    }
+}

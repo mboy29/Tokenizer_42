@@ -1,0 +1,14 @@
+{
+    "name": "Gengar",
+    "description": "A spooky NFT featuring Gengar, the Ghost/Poison-type Pokémon from the Pokémon series. Gengar is known for its mischievous behavior and ghostly powers.",
+    "image": "ipfs://<Your-Image-CID>", 
+    "properties": {
+        "type": "Ghost/Poison",
+        "rarity": "Mythical",
+        "abilities": [
+            "Shadow Ball",
+            "Hypnosis"
+        ],
+        "trainer": "None"
+    }
+}

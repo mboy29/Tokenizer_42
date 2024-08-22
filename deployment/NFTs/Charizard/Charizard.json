@@ -1,0 +1,14 @@
+{
+    "name": "Charizard",
+    "description": "Charizard, known as Dracaufeu in French, is a Fire/Flying-type Pokémon famous for its powerful flames and intimidating presence. This NFT captures Charizard’s majestic and fiery essence.",
+    "image": "ipfs://<Charizard-Image-CID>", 
+    "properties": {
+        "type": "Fire/Flying",
+        "rarity": "Legendary",
+        "abilities": [
+            "Flamethrower",
+            "Fly"
+        ],
+        "trainer": "None"
+    }
+}

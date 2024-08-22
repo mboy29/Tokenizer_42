@@ -1,0 +1,14 @@
+{
+    "name": "Jigglypuff",
+    "description": "Jigglypuff, known as Rondoudou in French, is a Fairy-type Pokémon recognized for its ability to put opponents to sleep with its enchanting lullaby. This NFT captures Jigglypuff's cute and bubbly essence.",
+    "image": "ipfs://QmQ4zjmrvhAXk5MUpZZVsUxNmcaqLFtVX51r1bo3ZsbRdX", 
+    "properties": {
+        "type": "Fairy",
+        "rarity": "Common",
+        "abilities": [
+            "Sing",
+            "Pound"
+        ],
+        "trainer": "None"
+    }
+}
