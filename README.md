@@ -24,6 +24,21 @@ This project is built on the **`Sepolia Ethereum Testnet`** using **`Chain IDE`*
 
 - Chain IDE is a cloud-based development environment tailored for blockchain development. It provides an integrated platform where developers can write, test, and deploy smart contracts efficiently. In this project, Chain IDE is used for its ease of use and compatibility with Ethereum, allowing seamless deployment and interaction with the Sepolia Testnet.
 
+## **Website Tools Used**
+
+Here are the tools and services utilized throughout the Pokedex42 project:
+
+- **[Chain IDE](https://chain.id/)**: A cloud-based development environment designed for blockchain projects. It provides an integrated platform for writing, testing, and deploying smart contracts, and was used for development and deployment on the Ethereum Sepolia testnet.
+
+- **[MetaMask](https://metamask.io/)**: A browser extension wallet that allows users to manage their Ethereum assets and interact with the blockchain. MetaMask was used for wallet management and interacting with the Ethereum network during development.
+
+- **[Etherscan](https://sepolia.etherscan.io/)**: A block explorer for the Ethereum blockchain. Etherscan was used to verify smart contracts, view transaction details, and monitor NFT interactions.
+
+- **[Pinata](https://pinata.cloud/)**: A service for hosting and managing IPFS content. Pinata was used to store and manage NFT metadata and assets in a decentralized manner.
+
+- **[OpenSea](https://opensea.io/)**: A marketplace for buying, selling, and discovering NFTs. OpenSea was used for listing and trading the Pokémon NFTs created in this project.
+
+
 ## **Repository Structure**
 
 This repository is organized as follows:
