@@ -1,4 +1,4 @@
-# **Pokedex42 NFT Project**
+# **Tokenizer 42 Project**
 
 ## **Introduction**
 
