@@ -19,7 +19,7 @@ MetaMask is a Web3 wallet required to interact with Ethereum blockchains, includ
 1. **Install MetaMask**: Download the MetaMask extension from the [official website](https://metamask.io/) and set up a new wallet.
 2. **Add Sepolia Testnet**: Click on the Metamask wallet plug-in, log in to the MetaMask wallet, open the testnet in the settings, and switch to Sepolia - as shown in the images below.
 
-    ![Metamask Test Network Set Up](./SnapShots/1-MetaMaskTestnetSetup.png)
+    ![Metamask Test Network Set Up](./Screenshots/1-MetaMaskTestnetSetup.png)
 
 
 ## 3. Obtain Test Tokens (SepoliaETH)
@@ -31,7 +31,7 @@ To interact with the testnet, you need SepoliaETH to cover gas fees.
 1. **Access a Faucet**: Visit [Chainlink](https://faucets.chain.link/sepolia) or [Google Cloud Web 3](https://cloud.google.com/application/web3/faucet/ethereum/sepolia) to test tokens.
 2. **Claim Tokens**: Enter your MetaMask wallet address to claim SepoliaETH - obtainable on the plug in as shown below Note that faucets often have rate limits, so you may need to wait a certain amount of time before making additional requests.
 
-    <img src="./SnapShots/1-MetaMaskWalletAddress.png" alt="Metamask Wallet Address" width="200"/>
+    <img src="./Screenshots/1-MetaMaskWalletAddress.png" alt="Metamask Wallet Address" width="200"/>
 
 3. **Verify Balance**: Ensure your MetaMask wallet has at least 0.1 SepoliaETH. While the faucets listed do not have a minimum balance requirement, some platforms such as [Sepolia Faucet](https://sepoliafaucet.com) or [Infura Sepolia Faucet](https://www.infura.io/faucet/sepolia) may. 
 

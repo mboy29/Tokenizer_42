@@ -50,7 +50,7 @@ Compiling is the process of **converting the human-readable Solidity code into m
 2. **Compile the Contract:** Press the compile button. If the code is correct, the IDE will generate a **`Pokedex42Item.sol.compiled`:** file containing the compiled bytecode and the ABI (Application Binary Interface), which is necessary for interacting with the contract.
 3. **Resolve Errors:** If there are any compilation errors, they will be displayed in the output panel. Fix the errors and recompile. Else, a success message should be displayed as in the example below. 
 
-    ![Smart Contract Compile](./SnapShots/2-SmartContractCompile.png)
+    ![Smart Contract Compile](./Screenshots/2-SmartContractCompile.png)
 
 ## Deployment Process
 
@@ -63,11 +63,11 @@ Deploying a smart contract involves **sending the compiled bytecode to the Ether
 1. **Connect Wallet:** Ensure your MetaMask wallet is connected to the Sepolia test network.
 2. **Deploy the Contract:** In your IDE, go to the "Deploy & Interaction" module. Select `Pokedex42` from the compiled contracts and deploy it. Confirm the transaction in MetaMask.
 
-    <img src="./SnapShots/2-SmartContractDeployConfirm.png" alt="Metamask Wallet Address" width="200"/>
+    <img src="./Screenshots/2-SmartContractDeployConfirm.png" alt="Metamask Wallet Address" width="200"/>
 
 3. **Deployment Output:** Upon successful deployment, you will receive a message indicating the contract has been deployed, along with a transaction hash. The IDE will them generate a deployment file: **`Pokedex42Item.Pokedex42.fa364d3ffa112865.eth.deployed`**, which stores metadata about the deployment, including the contract address and transaction details.
 
-    ![Smart Contract Compile](./SnapShots/2-SmartContractDeploySuccess.png)
+    ![Smart Contract Compile](./Screenshots/2-SmartContractDeploySuccess.png)
 
 ### Viewing the Transaction on Etherscan
 
@@ -75,9 +75,9 @@ After deployment, you can view the details of the deployment transaction on Ethe
 
 **Transaction Hash** : **`0xa534d7275b772c20a1f27fbf1244938653eb325f42ef07be92e0465aaf6511a0`**
 
-![Etherscan Deployement Details](./SnapShots/2-EtherscanDeploymentDetails.png)
+![Etherscan Deployement Details](./Screenshots/2-EtherscanDeploymentDetails.png)
 
-![Etherscan Deployement Details](./SnapShots/2-EtherscanDeploymentLogs.png)
+![Etherscan Deployement Details](./Screenshots/2-EtherscanDeploymentLogs.png)
 
 ## Recap
 

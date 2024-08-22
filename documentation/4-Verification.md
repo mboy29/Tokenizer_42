@@ -20,11 +20,11 @@ Verifying a smart contract is an essential step in the development process. It a
 
 2. **Generate the Flattened File**: Once the plugin is activated, select the `Pokedex42.sol` file from your contract directory and click on the "Flatten" button. A message with be output once the process has been completed.
 
-   ![Smart Contract Flatten](./SnapShots/4-SmartContractFlatten.png)
+   ![Smart Contract Flatten](./Screenshots/4-SmartContractFlatten.png)
 
 3. **Save the Flattened File**: Chain IDE will they suggestion you to save the flattened file. Click on it and the file will be added to the directory (e.g., `Pokedex42_flat.sol`).
 
-   ![Smart Contract Flatten Save](./SnapShots/4-SmartContractFlattenSave.png)
+   ![Smart Contract Flatten Save](./Screenshots/4-SmartContractFlattenSave.png)
 
 ### 2. Verify the Contract on Etherscan
 
@@ -32,19 +32,19 @@ Verifying a smart contract is an essential step in the development process. It a
 
 1. **Access the Verification Page**: Login to your [Etherscan](https://sepolia.etherscan.io/) account and head to your contract page (e.g., `Pokedex42). In the contract's details page, click on the "Verify and Publish" link under the contract section.
 
-   ![Etherscan Contract](./SnapShots/4-EtherScanContract.png)
+   ![Etherscan Contract](./Screenshots/4-EtherScanContract.png)
 
 2. **Fill in Verification Details**: Once on the page, paste the contract address of `Pokedex42`, choose "Single file" as compiler type since you're using the flattened file, select the Solidity compiler version that was used to compile your contract (e.g., `0.8.20`) and select the license under which your code is published (e.g., `MIT`). Then continue.
 
-   ![Etherscan Verification Details](./SnapShots/4-EtherscanVerificationDetails.png)
+   ![Etherscan Verification Details](./Screenshots/4-EtherscanVerificationDetails.png)
 
 3. **Upload Contract Source Code**: Now, paste the flattened code you saved earlier in the text area provided and ensure that the "Optimization" settings match those used during compilation.
 
-   ![Etherscan Verification Source Code](./SnapShots/4-EtherscanVerificationSourceCode.png)
+   ![Etherscan Verification Source Code](./Screenshots/4-EtherscanVerificationSourceCode.png)
 
 4. **Submit for Verification**: Click the "Verify and Publish" button. If there are no issues, your contract will be successfully verified, and a green checkmark will appear next to it on Etherscan.
 
-   ![Verification Success](./SnapShots/4-EtherscanVerificationSuccess.png)
+   ![Verification Success](./Screenshots/4-EtherscanVerificationSuccess.png)
 
 #### Option 2: Verify via Etherscan API
 
@@ -52,20 +52,20 @@ Verifying a smart contract is an essential step in the development process. It a
 
 2. **Obtain an API Key**: Head to [Etherscan](https://sepolia.etherscan.io/), and navigate to the "API Keys" section and create a new API key. 
 
-   ![Etherscan API Key](./SnapShots/4-EtherscanAPIKey.png)
+   ![Etherscan API Key](./Screenshots/4-EtherscanAPIKey.png)
 
 3. **Use the Plugin for Verification**: In the plugin interface, paste our API Key, select `Pokedex42` from the list of compiled contracts, specify it's contract address and click the "Verify" button.
 
-   <img src="./SnapShots/4-EtherscanApiVerifiy.png" alt="Chain IDE Verify" width="300"/>
+   <img src="./Screenshots/4-EtherscanApiVerifiy.png" alt="Chain IDE Verify" width="300"/>
 
    Once completed a success message will be displayed along side a URL
    to your contract information on [EtherScan](https://sepolia.etherscan.io/address/0x59e634e2A92f0cf6DE0CcE628C9F67fb7397daFf#code).
 
-   <img src="./SnapShots/4-EtherscanApiVerifiySuccess.png" alt="Chain IDE Verify" width="300"/>
+   <img src="./Screenshots/4-EtherscanApiVerifiySuccess.png" alt="Chain IDE Verify" width="300"/>
 
    Obviously, not need to verify you contract on Etherscan Website and API as a contract doesn't need double verification.
 
-   <img src="./SnapShots/4-EtherscanApiDoubleVerfication.png" alt="Etherscan API Double Verification" width="300"/>
+   <img src="./Screenshots/4-EtherscanApiDoubleVerfication.png" alt="Etherscan API Double Verification" width="300"/>
 
 ## Recap
 

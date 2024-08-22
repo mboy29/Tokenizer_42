@@ -39,7 +39,7 @@ Before minting, ensure you have prepared the metadata for the Jigglypuff NFT, si
 
 2. **Upload Metadata to IPFS**: Once again, use a service like Pinata to upload this JSON file to IPFS. This will give you a CID (Content Identifier) for the metadata.
 
-    ![Pinata Files](./SnapShots/5-PinataFiles.png)
+    ![Pinata Files](./Screenshots/5-PinataFiles.png)
 
 ### 2. Minting the Jigglypuff NFT
 
@@ -49,19 +49,19 @@ Before minting, ensure you have prepared the metadata for the Jigglypuff NFT, si
 
 3. **Execute the `PokemonCatch` Function**: Go to the `PokemonCatch` function in the "Write Contract" section. Now, enter the recipient's wallet address in the `player` field and specify the CID of your Jigglypuff metadata JSON in the `tokenURI` using the `ipfs://<Metadata-JSON-CID>`.
 
-    ![EtherScan Mint](./SnapShots/5-EtherscanMint.png)
+    ![EtherScan Mint](./Screenshots/5-EtherscanMint.png)
 
     Then, click "Write" and confirm the transaction in MetaMask.
 
-    <img src="./SnapShots/5-EtherScanMintConfirm.png" alt="EtherScran Mint Confirm" width="300"/>
+    <img src="./Screenshots/5-EtherScanMintConfirm.png" alt="EtherScran Mint Confirm" width="300"/>
 
 4. **Transaction Confirmation**: Finally, once the transaction is confirmed on the blockchain, your Jigglypuff NFT will be minted and assigned to the specified address.
 
-    ![EtherScan Mint Success](./SnapShots/5-EtherscanMintSuccess.png)
+    ![EtherScan Mint Success](./Screenshots/5-EtherscanMintSuccess.png)
 
     A button will be able to views the transaction details, as desplayed above.
 
-    ![EtherScan Mint Details](./SnapShots/5-EtherscanMintDetails.png)
+    ![EtherScan Mint Details](./Screenshots/5-EtherscanMintDetails.png)
 
 5. **Check the NFT on OpenSea**: Once the transaction confirmed, you're new NFT should be visible in your collection on OpenSea. Access it using the following URL formtat:
     ```
@@ -70,15 +70,15 @@ Before minting, ensure you have prepared the metadata for the Jigglypuff NFT, si
 
     This should redirect you to your collection and display your new NFT alongside your old ones (e.g., [**`Pokedex42`**](https://testnets.opensea.io/assets/sepolia/0x8d40501C310d8c18012561239c139477B98F89bc)).
 
-    ![OpenSea Collection](./SnapShots/5-OpenSeaCollection.png)
+    ![OpenSea Collection](./Screenshots/5-OpenSeaCollection.png)
 
     Once again, you can also check out your NTFs by connecting your MetaMask account to OpenSea. Instead of displaying the all the NFTs of the collection it will only display the NFTs that we send to you through different transactions. 
 
-    ![OpenSea Collection](./SnapShots/5-OpenSeaPersonalCollection.png)
+    ![OpenSea Collection](./Screenshots/5-OpenSeaPersonalCollection.png)
 
 5. **Import your NTF to MetaMask**: Now import your new NFT to your MetaMask Wallet by using the import functionality and by specifying the contract address and the token ID.
 
-    <img src="./SnapShots/5-MetaMaskNfts.png" alt="MetaMask NFTs" width="300"/>
+    <img src="./Screenshots/5-MetaMaskNfts.png" alt="MetaMask NFTs" width="300"/>
 
 ### 3. Transferring the Jigglypuff NFT
 
@@ -91,23 +91,23 @@ the `transferForm` function in the "Write Contract" and enter the required detai
     - **Token ID**: The unique identifier of the Jigglypuff NFT you wish to transfer.
     Then, click "Write" to initiate the transfer and confirm the transaction in MetaMask when prompted. 
 
-    ![EtherScan Transfer](./SnapShots/5-EtherscanTransfer.png)
+    ![EtherScan Transfer](./Screenshots/5-EtherscanTransfer.png)
    
 4. **Confirm Transaction**: Once again the current owner will have to confirm the transaction using MetaMask.
 
-    <img src="./SnapShots/5-EtherscanTransferConfirm.png" alt="EtherScan Transfer Confirm" width="300"/>
+    <img src="./Screenshots/5-EtherscanTransferConfirm.png" alt="EtherScan Transfer Confirm" width="300"/>
 
 3. **Verify the Transfer**: Once the transaction is completed you will be able to see details of the transaction on [EtherScan](https://sepolia.etherscan.io/tx/0xedf947bd16a43d50736d2d71cb36d39f4017a877a0df74a71c09d01143ff2122)
 
-    ![EtherScan Transfer Success](./SnapShots/5-EtherscanTransferSuccess.png)
+    ![EtherScan Transfer Success](./Screenshots/5-EtherscanTransferSuccess.png)
 
     Finally, the transfered NFT will no longer be displayed on the original user's OpenSea collection, as it has to be transfered to someone else.
 
-    ![Open Sea Sender Collecetion](./SnapShots/5-OpenSeaSenderCollection.png)
+    ![Open Sea Sender Collecetion](./Screenshots/5-OpenSeaSenderCollection.png)
 
     It will now be on the recipient's collected NFTs.
 
-    ![Open Sea Recipient Collecetion](./SnapShots/5-OpenSeaRecipientCollection.png)
+    ![Open Sea Recipient Collecetion](./Screenshots/5-OpenSeaRecipientCollection.png)
 
 ## Recap
 
