@@ -43,7 +43,7 @@ Before minting, ensure you have prepared the metadata for the Jigglypuff NFT, si
 
 ### 2. Minting the Jigglypuff NFT
 
-1. **Access the Contract on Etherscan**: Go to the contract’s page on Etherscan. You can access the "Write Contract" section to interact with the contract.
+1. **Access the Contract on Etherscan**: Go to the contract’s page on [Etherscan](https://sepolia.etherscan.io/address/0x8d40501C310d8c18012561239c139477B98F89bc). You can access the "Write Contract" section to interact with the contract.
 
 2. **Authenticate with MetaMask**: Connect your MetaMask wallet to Etherscan if you haven’t already.
 
